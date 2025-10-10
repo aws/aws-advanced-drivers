@@ -1,0 +1,18 @@
+title: AWS Advanced Drivers
+description: Documentation for AWS Advanced JDBC, Python, Node.js, and Go Wrappers
+baseurl: ""
+url: ""
+
+markdown: kramdown
+
+navigation:
+  - title: Home
+    url: /
+  - title: JDBC Wrapper
+    url: /jdbc
+  - title: Python Wrapper
+    url: /python
+  - title: Node.js Wrapper
+    url: /nodejs
+  - title: Go Wrapper
+    url: /go

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+      <nav>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/features' | relative_url }}">Features</a>
+        <a href="{{ '/jdbc' | relative_url }}">JDBC</a>
+        <a href="{{ '/python' | relative_url }}">Python</a>
+        <a href="{{ '/nodejs' | relative_url }}">Node.js</a>
+        <a href="{{ '/go' | relative_url }}">Go</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    {{ content }}
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Amazon Web Services. Licensed under Apache-2.0.</p>
+    </div>
+  </footer>
+</body>
+</html>
