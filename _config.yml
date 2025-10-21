@@ -1,7 +1,7 @@
 title: AWS Advanced Drivers
 description: Documentation for AWS Advanced JDBC, Python, Node.js, and Go Wrappers
-baseurl: ""
-url: ""
+baseurl: "/aws-advanced-drivers"
+url: "https://aws.github.io"
 
 markdown: kramdown
 
