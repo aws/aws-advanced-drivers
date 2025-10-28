@@ -9,6 +9,7 @@ title: AWS Advanced Node.js Wrapper
 
 The AWS Advanced Node.js Wrapper enhances Node.js database drivers with AWS-specific features for Amazon Aurora and RDS databases.
 
+**Latest Version:** [1.0.2](https://github.com/aws/aws-advanced-nodejs-wrapper/releases/tag/1.0.2)  
 **Repository:** [github.com/aws/aws-advanced-nodejs-wrapper](https://github.com/aws/aws-advanced-nodejs-wrapper)
 
 ## Installation
