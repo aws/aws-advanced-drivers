@@ -30,6 +30,7 @@ Each wrapper implements a plugin pipeline where plugins execute in sequence:
 - **[Python](python)** - For Python applications  
 - **[Node.js](nodejs)** - For Node.js applications
 - **[Go](go)** - For Go applications
+- **[.NET](dotnet)** - For .NET applications
 
 ## Core Features
 
