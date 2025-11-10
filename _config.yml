@@ -1,5 +1,5 @@
 title: AWS Advanced Drivers
-description: Documentation for AWS Advanced JDBC, Python, Node.js, Go, and .NET Wrappers
+description: Documentation for AWS Advanced JDBC, Python, Node.js, Go, .NET, and ODBC Drivers
 baseurl: "/aws-advanced-drivers"
 url: "https://aws.github.io"
 

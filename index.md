@@ -31,6 +31,7 @@ Each wrapper implements a plugin pipeline where plugins execute in sequence:
 - **[Node.js](nodejs)** - For Node.js applications
 - **[Go](go)** - For Go applications
 - **[.NET](dotnet)** - For .NET applications
+- **[ODBC](odbc)** - For ODBC-compatible applications (MySQL & PostgreSQL)
 
 ## Core Features
 
