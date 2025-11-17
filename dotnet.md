@@ -9,7 +9,7 @@ title: AWS Advanced .NET Data Provider Wrapper
 
 The AWS Advanced .NET Data Provider Wrapper enhances .NET database providers with AWS-specific features for Amazon Aurora and RDS databases.
 
-**Latest Version:** [1.0.0](https://github.com/aws/aws-advanced-dotnet-data-provider-wrapper/releases/tag/1.0.0)  
+**Latest Version:** [1.0.1](https://github.com/aws/aws-advanced-dotnet-data-provider-wrapper/releases/tag/1.0.1)  
 **Repository:** [github.com/aws/aws-advanced-dotnet-data-provider-wrapper](https://github.com/aws/aws-advanced-dotnet-data-provider-wrapper)
 
 ## Installation
