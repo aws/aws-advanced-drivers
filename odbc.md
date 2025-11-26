@@ -14,25 +14,78 @@ AWS provides ODBC drivers for PostgreSQL and MySQL with AWS-specific features fo
 **Latest Version:** [1.0.0](https://github.com/aws/aws-advanced-odbc-wrapper/releases/tag/1.0.0)  
 **Repository:** [github.com/aws/aws-advanced-odbc-wrapper](https://github.com/aws/aws-advanced-odbc-wrapper)
 
+### Prerequisites
+
+Before installing the AWS Advanced ODBC Wrapper, you must install:
+- UnixODBC (for Mac/Linux)
+- An underlying ODBC driver: [psqlODBC PostgreSQL ODBC Driver](https://github.com/postgresql-interfaces/psqlodbc)
+
 ### Installation
 
 **Windows:**
-Download and run the MSI installer from the [releases page](https://github.com/aws/aws-advanced-odbc-wrapper/releases/latest).
+1. Download the `.msi` installer from the [releases page](https://github.com/aws/aws-advanced-odbc-wrapper/releases/latest)
+2. Execute the installer and follow onscreen instructions
+3. Two wrappers will be installed:
+   - AWS Advanced ODBC Wrapper Ansi
+   - AWS Advanced ODBC Wrapper Unicode
 
-**macOS:**
+**macOS (Silicon chips only):**
 ```bash
-brew install aws-advanced-odbc-wrapper
+# Download and extract
+wget https://github.com/aws/aws-advanced-odbc-wrapper/releases/download/1.0.0/aws-advanced-odbc-wrapper-1.0.0-macos-arm64.zip
+unzip aws-advanced-odbc-wrapper-1.0.0-macos-arm64.zip
+
+# Bypass Gatekeeper
+xattr -dr com.apple.quarantine /path/to/the/wrapper/
+
+# Optional: Verify checksums
+shasum -a 256 aws-advanced-odbc-wrapper-a.dylib
+shasum -a 256 aws-advanced-odbc-wrapper-w.dylib
 ```
 
 **Linux:**
 ```bash
-# Download the appropriate package for your distribution
-wget https://github.com/aws/aws-advanced-odbc-wrapper/releases/download/1.0.0/aws-advanced-odbc-wrapper-1.0.0.tar.gz
-tar -xzf aws-advanced-odbc-wrapper-1.0.0.tar.gz
-cd aws-advanced-odbc-wrapper-1.0.0
-./configure
-make
-sudo make install
+# Download and extract
+wget https://github.com/aws/aws-advanced-odbc-wrapper/releases/download/1.0.0/aws-advanced-odbc-wrapper-1.0.0-linux-x64.tar.gz
+tar -xzf aws-advanced-odbc-wrapper-1.0.0-linux-x64.tar.gz
+
+# Optional: Verify checksums
+sha256sum aws-advanced-odbc-wrapper-a.so
+sha256sum aws-advanced-odbc-wrapper-w.so
+```
+
+### Configuration (Linux/macOS)
+
+Create or modify `odbcinst.ini`:
+```ini
+[ODBC Drivers]
+AWS Advanced ODBC Wrapper Ansi      = Installed
+AWS Advanced ODBC Wrapper Unicode   = Installed
+
+[AWS Advanced ODBC Wrapper Ansi]
+Driver = /path/to/aws-advanced-odbc-wrapper-a.dylib  # or .so for Linux
+
+[AWS Advanced ODBC Wrapper Unicode]
+Driver = /path/to/aws-advanced-odbc-wrapper-w.dylib  # or .so for Linux
+```
+
+Create or modify `odbc.ini`:
+```ini
+[ODBC Data Sources]
+aws-odbc-wrapper-a = AWS Advanced ODBC Wrapper Ansi
+aws-odbc-wrapper-w = AWS Advanced ODBC Wrapper Unicode
+
+[aws-odbc-wrapper-a]
+Driver          = AWS Advanced ODBC Wrapper Ansi
+SERVER          = cluster.region.rds.amazonaws.com
+DATABASE        = mydb
+BASE_DRIVER     = /path/to/psqlodbca.dylib  # or .so for Linux
+
+[aws-odbc-wrapper-w]
+Driver          = AWS Advanced ODBC Wrapper Unicode
+SERVER          = cluster.region.rds.amazonaws.com
+DATABASE        = mydb
+BASE_DRIVER     = /path/to/psqlodbcw.dylib  # or .so for Linux
 ```
 
 ### Connection String
