@@ -11,25 +11,25 @@ AWS provides ODBC drivers for PostgreSQL and MySQL with AWS-specific features fo
 
 ## AWS PostgreSQL ODBC Driver
 
-**Latest Version:** [1.0.1](https://github.com/aws/aws-pgsql-odbc/releases/tag/1.0.1)  
-**Repository:** [github.com/aws/aws-pgsql-odbc](https://github.com/aws/aws-pgsql-odbc)
+**Latest Version:** [1.0.0](https://github.com/aws/aws-advanced-odbc-wrapper/releases/tag/1.0.0)  
+**Repository:** [github.com/aws/aws-advanced-odbc-wrapper](https://github.com/aws/aws-advanced-odbc-wrapper)
 
 ### Installation
 
 **Windows:**
-Download and run the MSI installer from the [releases page](https://github.com/aws/aws-pgsql-odbc/releases/latest).
+Download and run the MSI installer from the [releases page](https://github.com/aws/aws-advanced-odbc-wrapper/releases/latest).
 
 **macOS:**
 ```bash
-brew install aws-pgsql-odbc
+brew install aws-advanced-odbc-wrapper
 ```
 
 **Linux:**
 ```bash
 # Download the appropriate package for your distribution
-wget https://github.com/aws/aws-pgsql-odbc/releases/download/1.0.1/aws-pgsql-odbc-1.0.1.tar.gz
-tar -xzf aws-pgsql-odbc-1.0.1.tar.gz
-cd aws-pgsql-odbc-1.0.1
+wget https://github.com/aws/aws-advanced-odbc-wrapper/releases/download/1.0.0/aws-advanced-odbc-wrapper-1.0.0.tar.gz
+tar -xzf aws-advanced-odbc-wrapper-1.0.0.tar.gz
+cd aws-advanced-odbc-wrapper-1.0.0
 ./configure
 make
 sudo make install
@@ -289,7 +289,7 @@ Verify:
 
 ## Resources
 
+- [PostgreSQL ODBC GitHub Repository](https://github.com/aws/aws-advanced-odbc-wrapper)
 - [MySQL ODBC GitHub Repository](https://github.com/aws/aws-mysql-odbc)
-- [PostgreSQL ODBC GitHub Repository](https://github.com/aws/aws-pgsql-odbc)
+- [PostgreSQL ODBC Documentation](https://github.com/aws/aws-advanced-odbc-wrapper/tree/main/docs)
 - [MySQL ODBC Documentation](https://github.com/aws/aws-mysql-odbc/tree/main/docs)
-- [PostgreSQL ODBC Documentation](https://github.com/aws/aws-pgsql-odbc/tree/main/docs)
