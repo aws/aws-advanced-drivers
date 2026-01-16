@@ -9,7 +9,7 @@ title: AWS Advanced Python Wrapper
 
 The AWS Advanced Python Wrapper is a Python database driver wrapper that adds AWS-specific features to standard Python database drivers for Aurora and RDS.
 
-**Latest Version:** [1.4.0](https://github.com/aws/aws-advanced-python-wrapper/releases/tag/1.4.0)  
+**Latest Version:** [2.0.0](https://github.com/aws/aws-advanced-python-wrapper/releases/tag/2.0.0)  
 **Repository:** [github.com/aws/aws-advanced-python-wrapper](https://github.com/aws/aws-advanced-python-wrapper)
 
 ## Installation
