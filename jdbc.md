@@ -9,7 +9,7 @@ title: AWS Advanced JDBC Wrapper
 
 The AWS Advanced JDBC Wrapper is a JDBC driver wrapper that provides advanced features for Java applications connecting to Amazon Aurora and RDS databases.
 
-**Latest Version:** [3.1.0](https://github.com/aws/aws-advanced-jdbc-wrapper/releases/tag/3.1.0)  
+**Latest Version:** [3.2.0](https://github.com/aws/aws-advanced-jdbc-wrapper/releases/tag/3.2.0)  
 **Repository:** [github.com/aws/aws-advanced-jdbc-wrapper](https://github.com/aws/aws-advanced-jdbc-wrapper)
 
 ## Installation
@@ -21,13 +21,13 @@ Add the dependency to your project:
 <dependency>
     <groupId>software.amazon.jdbc</groupId>
     <artifactId>aws-advanced-jdbc-wrapper</artifactId>
-    <version>3.1.0</version>
+    <version>3.2.0</version>
 </dependency>
 ```
 
 **Gradle:**
 ```gradle
-implementation 'software.amazon.jdbc:aws-advanced-jdbc-wrapper:3.1.0'
+implementation 'software.amazon.jdbc:aws-advanced-jdbc-wrapper:3.2.0'
 ```
 
 ## Quick Start
