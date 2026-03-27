@@ -11,7 +11,7 @@ AWS provides ODBC drivers for PostgreSQL and MySQL with AWS-specific features fo
 
 ## AWS PostgreSQL ODBC Driver
 
-**Latest Version:** [1.0.0](https://github.com/aws/aws-advanced-odbc-wrapper/releases/tag/1.0.0)  
+**Latest Version:** [1.1.0](https://github.com/aws/aws-advanced-odbc-wrapper/releases/tag/1.1.0)  
 **Repository:** [github.com/aws/aws-advanced-odbc-wrapper](https://github.com/aws/aws-advanced-odbc-wrapper)
 
 ### Prerequisites
@@ -32,8 +32,8 @@ Before installing the AWS Advanced ODBC Wrapper, you must install:
 **macOS (Silicon chips only):**
 ```bash
 # Download and extract
-wget https://github.com/aws/aws-advanced-odbc-wrapper/releases/download/1.0.0/aws-advanced-odbc-wrapper-1.0.0-macos-arm64.zip
-unzip aws-advanced-odbc-wrapper-1.0.0-macos-arm64.zip
+wget https://github.com/aws/aws-advanced-odbc-wrapper/releases/download/1.1.0/aws-advanced-odbc-wrapper-1.1.0-macos-arm64.zip
+unzip aws-advanced-odbc-wrapper-1.1.0-macos-arm64.zip
 
 # Bypass Gatekeeper
 xattr -dr com.apple.quarantine /path/to/the/wrapper/
@@ -46,8 +46,8 @@ shasum -a 256 aws-advanced-odbc-wrapper-w.dylib
 **Linux:**
 ```bash
 # Download and extract
-wget https://github.com/aws/aws-advanced-odbc-wrapper/releases/download/1.0.0/aws-advanced-odbc-wrapper-1.0.0-linux-x64.tar.gz
-tar -xzf aws-advanced-odbc-wrapper-1.0.0-linux-x64.tar.gz
+wget https://github.com/aws/aws-advanced-odbc-wrapper/releases/download/1.1.0/aws-advanced-odbc-wrapper-1.1.0-linux-x64.tar.gz
+tar -xzf aws-advanced-odbc-wrapper-1.1.0-linux-x64.tar.gz
 
 # Optional: Verify checksums
 sha256sum aws-advanced-odbc-wrapper-a.so
