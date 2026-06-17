@@ -9,9 +9,9 @@ DRIVERS=(
   "JDBC|aws/aws-advanced-jdbc-wrapper|4.0.1"
   "Python|aws/aws-advanced-python-wrapper|3.0.0"
   "Node.js|aws/aws-advanced-nodejs-wrapper|2.1.1"
-  ".NET|aws/aws-advanced-dotnet-data-provider-wrapper|1.2.0"
+  ".NET|aws/aws-advanced-dotnet-data-provider-wrapper|2.0.0"
   "Go|aws/aws-advanced-go-wrapper|2026-05-26"
-  "ODBC PostgreSQL|aws/aws-advanced-odbc-wrapper|1.1.0"
+  "ODBC PostgreSQL|aws/aws-advanced-odbc-wrapper|1.2.0"
   "MySQL ODBC|aws/aws-mysql-odbc|1.2.0"
 )
 
