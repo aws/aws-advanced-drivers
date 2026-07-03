@@ -9,7 +9,7 @@ title: AWS Advanced Go Wrapper
 
 The AWS Advanced Go Wrapper is a Go database driver wrapper that provides AWS-specific enhancements for connecting to Amazon Aurora and RDS databases.
 
-**Latest Version:** [2026-05-26](https://github.com/aws/aws-advanced-go-wrapper/releases/tag/release-2026-05-26)  
+**Latest Version:** [2026-07-02](https://github.com/aws/aws-advanced-go-wrapper/releases/tag/release-2026-07-02)  
 **Repository:** [github.com/aws/aws-advanced-go-wrapper](https://github.com/aws/aws-advanced-go-wrapper)
 
 ## Installation
