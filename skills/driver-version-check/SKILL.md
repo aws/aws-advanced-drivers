@@ -23,7 +23,7 @@ Use this skill when:
 | Driver | MD File | GitHub Releases URL | Current Documented Version |
 |--------|---------|--------------------|-----------------------------|
 | JDBC Wrapper | `jdbc.md` | `https://github.com/aws/aws-advanced-jdbc-wrapper/releases/latest` | 4.4.0 |
-| Python Wrapper | `python.md` | `https://github.com/aws/aws-advanced-python-wrapper/releases/latest` | 3.0.0 |
+| Python Wrapper | `python.md` | `https://github.com/aws/aws-advanced-python-wrapper/releases/latest` | 3.1.0 |
 | Node.js Wrapper | `nodejs.md` | `https://github.com/aws/aws-advanced-nodejs-wrapper/releases/latest` | 3.0.0 |
 | .NET Wrapper | `dotnet.md` | `https://github.com/aws/aws-advanced-dotnet-data-provider-wrapper/releases/latest` | 2.2.0 |
 | Go Wrapper | `go.md` | `https://github.com/aws/aws-advanced-go-wrapper/releases/latest` | 2026-07-29 |
