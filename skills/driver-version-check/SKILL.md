@@ -28,7 +28,7 @@ Use this skill when:
 | .NET Wrapper | `dotnet.md` | `https://github.com/aws/aws-advanced-dotnet-data-provider-wrapper/releases/latest` | 2.2.0 |
 | Go Wrapper | `go.md` | `https://github.com/aws/aws-advanced-go-wrapper/releases/latest` | 2026-07-29 |
 | ODBC PostgreSQL Wrapper | `odbc.md` | `https://github.com/aws/aws-advanced-odbc-wrapper/releases/latest` | 1.3.0 |
-| MySQL ODBC Driver | `odbc.md` | `https://github.com/aws/aws-mysql-odbc/releases/latest` | 1.2.0 |
+| MySQL ODBC Driver | `odbc.md` | `https://github.com/aws/aws-mysql-odbc/releases/latest` | 1.2.1 |
 
 ### How to Check
 

@@ -110,7 +110,7 @@ DRIVER={Amazon PostgreSQL ODBC Driver};SERVER=cluster.region.rds.amazonaws.com;P
 
 ## AWS MySQL ODBC Driver
 
-**Latest Version:** [1.2.0](https://github.com/aws/aws-mysql-odbc/releases/tag/1.2.0)  
+**Latest Version:** [1.2.1](https://github.com/aws/aws-mysql-odbc/releases/tag/1.2.1)  
 **Repository:** [github.com/aws/aws-mysql-odbc](https://github.com/aws/aws-mysql-odbc)
 
 ### Installation
@@ -126,9 +126,9 @@ brew install aws-mysql-odbc
 **Linux:**
 ```bash
 # Download the appropriate package for your distribution
-wget https://github.com/aws/aws-mysql-odbc/releases/download/1.2.0/aws-mysql-odbc-1.2.0.tar.gz
-tar -xzf aws-mysql-odbc-1.2.0.tar.gz
-cd aws-mysql-odbc-1.2.0
+wget https://github.com/aws/aws-mysql-odbc/releases/download/1.2.1/aws-mysql-odbc-1.2.1.tar.gz
+tar -xzf aws-mysql-odbc-1.2.1.tar.gz
+cd aws-mysql-odbc-1.2.1
 ./configure
 make
 sudo make install

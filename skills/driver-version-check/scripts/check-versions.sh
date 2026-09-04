@@ -12,7 +12,7 @@ DRIVERS=(
   ".NET|aws/aws-advanced-dotnet-data-provider-wrapper|2.2.0"
   "Go|aws/aws-advanced-go-wrapper|2026-07-29"
   "ODBC PostgreSQL|aws/aws-advanced-odbc-wrapper|1.3.0"
-  "MySQL ODBC|aws/aws-mysql-odbc|1.2.0"
+  "MySQL ODBC|aws/aws-mysql-odbc|1.2.1"
 )
 
 echo "Driver|Documented|Latest|Status"
