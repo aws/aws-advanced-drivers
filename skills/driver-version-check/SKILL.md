@@ -27,7 +27,7 @@ Use this skill when:
 | Node.js Wrapper | `nodejs.md` | `https://github.com/aws/aws-advanced-nodejs-wrapper/releases/latest` | 3.0.0 |
 | .NET Wrapper | `dotnet.md` | `https://github.com/aws/aws-advanced-dotnet-data-provider-wrapper/releases/latest` | 2.2.0 |
 | Go Wrapper | `go.md` | `https://github.com/aws/aws-advanced-go-wrapper/releases/latest` | 2026-09-08 |
-| ODBC PostgreSQL Wrapper | `odbc.md` | `https://github.com/aws/aws-advanced-odbc-wrapper/releases/latest` | 1.3.0 |
+| ODBC PostgreSQL Wrapper | `odbc.md` | `https://github.com/aws/aws-advanced-odbc-wrapper/releases/latest` | 1.3.1 |
 | MySQL ODBC Driver | `odbc.md` | `https://github.com/aws/aws-mysql-odbc/releases/latest` | 1.2.1 |
 
 ### How to Check
