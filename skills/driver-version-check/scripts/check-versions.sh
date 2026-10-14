@@ -10,6 +10,7 @@ DRIVERS=(
   "Python|aws/aws-advanced-python-wrapper|3.1.0"
   "Node.js|aws/aws-advanced-nodejs-wrapper|3.0.0"
   ".NET|aws/aws-advanced-dotnet-data-provider-wrapper|3.0.0"
+  "Ruby|aws/aws-advanced-ruby-driver-wrapper|1.0.1"
   "Go|aws/aws-advanced-go-wrapper|2026-10-09"
   "ODBC PostgreSQL|aws/aws-advanced-odbc-wrapper|1.3.1"
   "MySQL ODBC|aws/aws-mysql-odbc|1.2.1"
@@ -26,7 +27,7 @@ for entry in "${DRIVERS[@]}"; do
     | grep -i "^location:" \
     | sed 's|.*/tag/||' \
     | tr -d '\r\n' \
-    | sed 's/^release-//')
+    | sed -e 's/^release-//' -e 's/^v//')
 
   if [ -z "$latest" ]; then
     latest="ERROR"
