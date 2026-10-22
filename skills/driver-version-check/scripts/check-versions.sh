@@ -8,7 +8,7 @@ set -eo pipefail
 DRIVERS=(
   "JDBC|aws/aws-advanced-jdbc-wrapper|4.5.0"
   "Python|aws/aws-advanced-python-wrapper|3.1.0"
-  "Node.js|aws/aws-advanced-nodejs-wrapper|3.0.0"
+  "Node.js|aws/aws-advanced-nodejs-wrapper|3.0.1"
   ".NET|aws/aws-advanced-dotnet-data-provider-wrapper|3.0.0"
   "Ruby|aws/aws-advanced-ruby-driver-wrapper|1.0.1"
   "Go|aws/aws-advanced-go-wrapper|2026-10-09"
