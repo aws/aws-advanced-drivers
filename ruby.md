@@ -9,7 +9,7 @@ title: AWS Advanced Ruby Driver Wrapper
 
 The AWS Advanced Ruby Driver Wrapper adds AWS-specific features to the community `mysql2` and `pg` Ruby drivers for Aurora and RDS. It integrates with ActiveRecord through drop-in `aws_mysql2` and `aws_postgresql` adapters.
 
-**Latest Version:** [1.0.1](https://github.com/aws/aws-advanced-ruby-driver-wrapper/releases/tag/v1.0.1)  
+**Latest Version:** [1.1.0](https://github.com/aws/aws-advanced-ruby-driver-wrapper/releases/tag/v1.1.0)  
 **Repository:** [github.com/aws/aws-advanced-ruby-driver-wrapper](https://github.com/aws/aws-advanced-ruby-driver-wrapper)
 
 ## Installation
